@@ -1,0 +1,50 @@
+body {
+  background: url(pic_sepia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#todo-title {
+  border-radius: 4px;
+  border: solid 1px;
+  box-shadow: 3px 3px 5px gray;
+  background-color: lightgray;
+}
+
+.add-button {
+  align-items: center;
+  margin-top: 10px;
+}
+
+#stat-head, #detailedstat-head {
+  background-color: LightSteelBlue;
+}
+
+.stat {
+  border-radius: 4px;
+  border: solid 1px;
+  box-shadow: 3px 3px 5px gray;
+  background-color: white;
+}
+
+.rounded {
+  border-radius: 4px;
+  border: solid 1px;
+}
+
+.category, td {
+  text-align: center;
+}
+
+#todo-list-head {
+  background-color: plum;
+}
+
+#completed-list-head {
+  background-color: lightgreen;
+}
+
+.form-check-input:hover {
+  transform: scale(1.5);
+}
